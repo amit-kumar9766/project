@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Size Chart</title>
+
+    <meta name="viewport" content="device-width" />
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 50%;
+            /* padding-top: 15px; */
+        }
+        
+        th,
+        td {
+            padding: 20px;
+        }
+        
+        #customers th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+        
+        table {
+            margin: 10% 25% 10% 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">
+
+        Myntra Size Chart
+    </h1>
+    <table id="customers">
+        <thead>
+            <tr>
+                <th>Size</th>
+                <th>Across Shoulder(inches)</th>
+                <th>Length(inches)</th>
+                <th>Bust(inches)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>XS</td>
+                <td>13.5</td>
+                <td>23.5</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>S</td>
+                <td>14</td>
+                <td>24</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>M</td>
+                <td>14.5</td>
+                <td>24.5</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>L</td>
+                <td>15</td>
+                <td>25</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
